@@ -9,6 +9,10 @@ function MyButton({count, onClick}) {
 }
 
 function App() {
+    /* Props
+    Move the state from the individual buttons "upwards" to the closest component containing all of them
+    then can pass both of them down as props to each of the buttons 
+    By moving state up, you've shared it between components */
   const [count, setCount] = useState(0);
 
   function handleClick() {
