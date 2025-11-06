@@ -22,3 +22,10 @@ return (
          )}
     </div>
 )
+
+/* Use logical && syntax */
+return (
+    <div>
+        {isLoggedIn && <AdminPanel />}
+    </div>
+)
