@@ -1,28 +1,14 @@
-import { useState } from 'react'
-
-function MyButton({count, onClick}) {
-  return (
-    <button onClick={onClick}>
-      Clicked {count} times
-    </button>
-  )
-}
+import Ttt_v1 from './tic-tac-toe/ttt_v1.jsx';
+import Ttt_v2 from './tic-tac-toe/ttt_v2.jsx';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
   return (
     <>
-      <h1>Counters that update separately</h1>
-      <MyButton count={count} onClick={handleClick} />
-      <MyButton count={count} onClick={handleClick} />
+      <Ttt_v1 />
+      <br />
+      <Ttt_v2 />
     </>
   );
 }
 
-// 기본으로 보여줄 객체
 export default App
