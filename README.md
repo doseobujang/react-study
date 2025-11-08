@@ -9,8 +9,9 @@ https://react.dev/
 |-------|--------|
 |2025-11-04|Get Started: Quick Start|
 |2025-11-05~06|Tutorial: Tic-Tac-Toe|
+|2025-11-07|Add Aditional function to tic-tac-toe #1|
 
 Not yet
 |계획일자|학습내용|
 |-------|--------|
-|2025-11-07|Add Aditional function to tic-tac-toe|
+|언젠가...|Add Aditional function to tic-tac-toe|
